@@ -1,3 +1,5 @@
+import Spinner from "../_components/Spinner";
+
 export default function Loading() {
-  return <div className="p-10 text-center text-2xl">Loader...</div>;
+  return <Spinner />;
 }
